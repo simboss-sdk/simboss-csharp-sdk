@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Simboss.Csharp.Sdk</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MainPage.xaml.cs" />
+    <Compile Remove="Constant\CardStatusConstants.java" />
+    <Compile Remove="Helper\BooleanConvert.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="MainPage.xaml" />
+    <None Remove="Request\UserDashboardGetRequest.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Conf\" />
+    <Folder Include="Constant\" />
+    <Folder Include="Model\" />
+    <Folder Include="Exception\" />
+    <Folder Include="Request\" />
+    <Folder Include="Response\" />
+    <Folder Include="Helper\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+</Project>
