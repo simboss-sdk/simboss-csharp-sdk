@@ -3,6 +3,18 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Simboss.Csharp.Sdk</RootNamespace>
+    <PackageId>Simboss.Sdk</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>Abel Liu</Authors>
+    <DevelopmentDependency>true</DevelopmentDependency>
+    <Owners>simboss.com</Owners>
+    <PackageProjectUrl>https://www.simboss.com</PackageProjectUrl>
+    <PackageTags>simboss</PackageTags>
+    <Title>simboss sdk</Title>
+    <Description>Simboss C# SDK.
+WebSite: https://www.simboss.com
+API doc :  https://www.simboss.com/www/api-doc/index.html</Description>
+    <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,5 +40,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
   </ItemGroup>
 </Project>
