@@ -165,6 +165,5 @@ namespace Simboss.Csharp.Sdk.Test
             SimbossResponse<String> response = client.Excute<String>(request);
             log.WriteLine(response.ToString());
         }
-
     }
 }
