@@ -23,6 +23,7 @@ namespace Simboss.Csharp.Sdk.Test
         [Fact]
         public void testDeviceDetail()
         {
+            
             DeviceDetailRequest request = new DeviceDetailRequest();
             request.Iccid = "89860401101730528432";
             SimbossResponse<DeviceDetailModel> response = client.Excute<DeviceDetailModel>(request);
