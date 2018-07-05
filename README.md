@@ -74,17 +74,18 @@ SimbossClient client = new SimbossClient("appId", "appSecret", apiUrl, dic).Init
 |5.2 短信查询             | SmsListRequest                  | SimbossResponse\<SmsListDTO\>              |
 
 ## 源码说明 
-- simboss-csharp-sdk sdk
-- 版本说明： 
+- simboss-csharp-sdk(sdk) 版本说明：
+ 
 1. NetStandard.Library 2.0.1及以上
 2. Newtonsoft.Json 11.0.2及以上
 
-- simboss-csharp-sdk-test sdk单元测试
-- 版本说明：
+- simboss-csharp-sdk-test(sdk单元测试) 版本说明：
+
 1. Microsoft.Net.Test.Sdk 15.3.0及以上
 2. xunit 2.2.0及以上
 3. xunit.runner.visualstudio 2.2.0及以上
 4. Microsoft.NETCore.app 2.0.0及以上
+
 
 
 
