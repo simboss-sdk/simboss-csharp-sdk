@@ -21,15 +21,11 @@ namespace Simboss.Csharp.Sdk.Test
         [Fact]
         public void testUserDashboardGet()
         {
-            try
-            {
-                UserDashboardGetRequest request = new UserDashboardGetRequest();
-                SimbossResponse<DashboardModel> response = TestAccountInfo.client.Excute<DashboardModel>(request);
-                log.WriteLine(response.ToString());
-                log.WriteLine(response.Data.company);
-            }catch (System.Exception e) {
-                log.WriteLine(e.Message, e);
-            }
+            UserDashboardGetRequest request = new UserDashboardGetRequest();
+            SimbossResponse<DashboardModel> response = TestAccountInfo.client.Excute<DashboardModel>(request);
+            log.WriteLine(response.ToString());
+            log.WriteLine(response.Data.company);
+
         }
     }
 }
