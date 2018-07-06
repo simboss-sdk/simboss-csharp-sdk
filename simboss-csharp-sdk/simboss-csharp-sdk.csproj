@@ -4,19 +4,25 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Simboss.Csharp.Sdk</RootNamespace>
     <PackageId>Simboss.Sdk</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.5</PackageVersion>
     <Authors>Abel Liu</Authors>
-    <DevelopmentDependency>true</DevelopmentDependency>
     <Owners>simboss.com</Owners>
     <PackageProjectUrl>https://www.simboss.com</PackageProjectUrl>
     <PackageTags>simboss</PackageTags>
-    <Title>simboss sdk</Title>
+    <Title>Simboss Sdk</Title>
     <Description>Simboss C# SDK.
 WebSite: https://www.simboss.com
 API doc :  https://www.simboss.com/www/api-doc/index.html</Description>
     <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>zh-CN</NeutralLanguage>
+    <Summary>simboss sdk</Summary>
+    <PackageIconUrl>http://www.i18n.cn/simboss-logo.png</PackageIconUrl>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Remove="MainPage.xaml.cs" />
     <Compile Remove="Constant\CardStatusConstants.java" />
@@ -40,6 +46,5 @@ API doc :  https://www.simboss.com/www/api-doc/index.html</Description>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
   </ItemGroup>
 </Project>
