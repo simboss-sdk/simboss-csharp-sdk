@@ -104,6 +104,11 @@ namespace Simboss.Csharp.Sdk.Request
             get; set;
         }
 
+        public String Diviceid
+        {
+            get; set;
+        }
+
         public void SetPic1(Stream stream) {
             this.Pic1 = FileHelper.convertFileToBase64(stream);
         }

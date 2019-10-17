@@ -195,5 +195,35 @@ namespace Simboss.Csharp.Sdk.Model
             set; get;
         }
 
+        /**
+         * 公司名称
+         */
+        public String OrgName{
+            set; get;
+        }
+
+        /**
+         * imei状态
+         */
+        public String ImeiStatus{
+            set; get;
+        }
+
+        /**
+         * 网络限速值
+         */
+        public Double SpeedLimit{
+            set; get;
+        }
+
+        /**
+         *
+         */
+        public Boolean UseCountAsVolume{
+            set; get;
+        }
+
+
+
     }
 }

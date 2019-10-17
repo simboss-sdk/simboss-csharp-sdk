@@ -49,5 +49,20 @@ namespace Simboss.Csharp.Sdk.Model
         {
             get; set;
         }
+
+        public Int32 RechargeUnit
+        {
+            get; set;
+        }
+
+        public Double AclPolicyWhitePrice
+        {
+            get; set;
+        }
+
+        public Boolean UseCountAsVolume
+        {
+            get; set;
+        }
     }
 }

@@ -45,5 +45,13 @@ namespace Simboss.Csharp.Sdk.Model
         public String VolumePlanName{
             get; set;
         }
+
+        public String Type{
+            get; set;
+        }
+
+        public Double AclPolicyWhitePrice{
+            get; set;
+        }
     }
 }

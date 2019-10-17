@@ -43,5 +43,9 @@ namespace Simboss.Csharp.Sdk.Request
             get; set;
         }
 
+        public String AppKey{
+            get; set;
+        }
+
     }
 }
