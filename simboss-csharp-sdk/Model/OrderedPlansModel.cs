@@ -5,6 +5,9 @@ namespace Simboss.Csharp.Sdk.Model
 
     public class OrderedPlansModel
     {
+        public String Status{
+            get; set;
+        }
 
         public Int32 RatePlanId{
             get; set;
@@ -47,6 +50,10 @@ namespace Simboss.Csharp.Sdk.Model
         }
 
         public Boolean UnlimitedVolume{
+            get; set;
+        }
+
+        public Boolean UseCountAsVolume{
             get; set;
         }
     }

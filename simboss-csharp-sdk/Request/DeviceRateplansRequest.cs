@@ -18,5 +18,10 @@ namespace Simboss.Csharp.Sdk.Request
             SortedDictionary<String, String> map = base.GetBaseParam();
             return map;
         }
+
+        public Boolean withRechargeUnit
+        {
+           get; set;
+        }
     }
 }

@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Simboss.Csharp.Sdk</RootNamespace>
     <PackageId>Simboss.Sdk</PackageId>
-    <PackageVersion>1.0.5</PackageVersion>
+    <PackageVersion>1.1.0</PackageVersion>
     <Authors>Abel Liu</Authors>
     <Owners>simboss.com</Owners>
     <PackageProjectUrl>https://www.simboss.com</PackageProjectUrl>
@@ -45,6 +45,6 @@ API doc :  https://www.simboss.com/www/api-doc/index.html</Description>
     <Folder Include="Helper\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
   </ItemGroup>
 </Project>
