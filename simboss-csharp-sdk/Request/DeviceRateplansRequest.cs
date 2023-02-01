@@ -16,7 +16,12 @@ namespace Simboss.Csharp.Sdk.Request
         public SortedDictionary<String, String> GetParam()
         {
             SortedDictionary<String, String> map = base.GetBaseParam();
-            return map;
+                        if (withRechargeUnit)
+                        {
+                            map.Add("withRechargeUnit", "true");
+                        }
+
+                        return map;
         }
 
         public Boolean withRechargeUnit
