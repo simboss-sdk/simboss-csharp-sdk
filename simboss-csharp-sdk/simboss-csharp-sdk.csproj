@@ -18,6 +18,7 @@ API doc :  https://www.simboss.com/www/api-doc/index.html</Description>
     <Summary>simboss sdk</Summary>
     <PackageIconUrl>http://www.i18n.cn/simboss-logo.png</PackageIconUrl>
     <SignAssembly>true</SignAssembly>
+    <Configurations>Release;Debug</Configurations>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
