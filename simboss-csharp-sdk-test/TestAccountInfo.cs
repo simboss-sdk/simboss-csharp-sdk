@@ -19,7 +19,7 @@ namespace Simboss.Csharp.Sdk.Test
         private static SimbossClient client = new SimbossClient("10242017520", "2aa9382a45d3092f24fe2a0325f28200").Init();
 
         [Fact]
-        public void testUserDashboardGet()
+        public void TestUserDashboardGet()
         {
             UserDashboardGetRequest request = new UserDashboardGetRequest();
             SimbossResponse<DashboardModel> response = TestAccountInfo.client.Excute<DashboardModel>(request);
