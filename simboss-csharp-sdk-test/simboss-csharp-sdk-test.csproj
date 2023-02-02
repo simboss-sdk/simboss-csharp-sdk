@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
     <RootNamespace>Simboss.Csharp.Sdk.Test</RootNamespace>
@@ -11,10 +11,6 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170628-02" />
     <PackageReference Include="xunit" Version="2.2.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
-    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive
-    </IncludeAssets>
-<PrivateAssets>all</PrivateAssets>
-</PackageReference>
   </ItemGroup>
 
   <ItemGroup>
@@ -23,5 +19,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\simboss-csharp-sdk\simboss-csharp-sdk.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="xunit.runner.visualstudio" />
+    <None Remove="xunit.core" />
   </ItemGroup>
 </Project>
