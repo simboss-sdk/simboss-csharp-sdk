@@ -8,7 +8,7 @@ namespace Simboss.Csharp.Sdk.Request
     public class CardPoolDetailRequest : ThreeIdCombineModel, SimbossRequest
     {
 
-        public String GetUri()
+        public String  GetUri()
         {
             return UriConstants.URI_CARD_POOL_DETAIL;
         }
